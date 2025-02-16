@@ -1,0 +1,28 @@
+.signin_box {
+  display: flex;
+
+  flex-direction: column;
+  margin: 5% auto;
+  width: 50rem;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  margin-top: 20rem;
+  background-color: #17365a;
+}
+
+@media (min-width: 768px) {
+  .signin_box {
+    display: flex;
+
+    align-items: center;
+    flex-direction: row;
+
+    justify-content: center;
+    margin: 10% auto;
+    width: 40dvw;
+    height: 50dvh;
+
+    background-color: #17365a;
+  }
+}

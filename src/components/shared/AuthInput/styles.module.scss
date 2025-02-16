@@ -1,0 +1,27 @@
+.input {
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+  padding: 4px;
+  width: 22rem;
+  height: 3.2rem;
+  border: none;
+  border-bottom: 1px solid #aaa;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  transition: 0.2s ease;
+}
+
+.input:focus {
+  border-bottom: 2px solid #0b9548;
+  color: #0b9548;
+  transition: 0.2s ease;
+}
+
+@media (min-width: 768px) {
+}
+
+.error {
+  color: red;
+  margin-top: 5px;
+}

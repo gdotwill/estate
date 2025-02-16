@@ -1,0 +1,129 @@
+$header-color: #c69963;
+
+.header {
+  margin: 2rem;
+  color: $header-color;
+
+  @media (min-width: 768px) {
+    font-size: 3rem;
+    margin-bottom: 5rem;
+  }
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 2rem;
+
+  .form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .input {
+      box-sizing: border-box;
+      margin-bottom: 2rem;
+      padding: 4px;
+      width: 22rem;
+      height: 3.2rem;
+      border: none;
+      border-bottom: 1px solid #AAA;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
+      font-size: 1.5rem;
+      transition: 0.2s ease;
+
+      &:focus {
+        border-bottom: 2px solid #0b9548;
+        color: #0b9548;
+        transition: 0.2s ease;
+      }
+
+      &[type="submit"] {
+        margin-top: 2.8rem;
+        width: 12rem;
+        height: 3.2rem;
+        background: #0b9548;
+        border: none;
+        border-radius: 2px;
+        color: #FFF;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 500;
+        text-transform: uppercase;
+        transition: 0.1s ease;
+        cursor: pointer;
+
+        &:hover,
+        &:focus {
+          opacity: 0.8;
+          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+          transition: 0.1s ease;
+        }
+
+        &:active {
+          opacity: 1;
+          box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+          transition: 0.1s ease;
+        }
+      }
+    }
+  }
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 4rem;
+
+  button.social_signin {
+    margin-bottom: 2rem;
+    width: 22rem;
+    height: 3.6rem;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    transition: 0.2s ease;
+    cursor: pointer;
+
+    &:hover,
+    &:focus {
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+      transition: 0.2s ease;
+    }
+
+    &:active {
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+      transition: 0.2s ease;
+    }
+
+    &.facebook {
+      background: #32508e;
+      font-size: 1.5rem;
+    }
+
+    &.github {
+      background: #353232;
+      font-size: 1.5rem;
+    }
+
+    &.google {
+      background: #dd4b39;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.loader {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 2s linear infinite;
+  margin: 10px auto;
+}

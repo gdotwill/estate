@@ -1,0 +1,33 @@
+.form_label {
+    display: block;
+    margin-top: 2rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  
+  .form_input, .form_textarea {
+    padding: 1.2rem 2rem;
+    font-size: 1rem;
+    border-width: 5px;
+    border-style: none;
+    border-radius: 6px;
+    outline: transparent;
+    width: 100%;
+    transition: border-color 0.2s ease;
+  
+    @media screen and (min-width: 768px) {
+      font-size: 1.8rem;
+    }
+  }
+  
+  .form_textarea {
+    padding: 1.2px 2rem;
+  }
+  
+  .error_message {
+    color: white;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+  }
+  

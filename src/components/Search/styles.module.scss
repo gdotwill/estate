@@ -1,0 +1,36 @@
+.container {
+    background-color: rgba(245, 245, 220, 0.267);
+
+    display: flex;
+    justify-content: center;
+    min-height: 12rem;
+    width: 35rem;
+}
+.barWrapper {
+    padding: 1rem;
+}
+.selectsWrapper {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.range {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 780px) {
+    .container {
+        width: 45rem;
+    }
+}
+
+.error {
+    display: inline-block;
+    font-size: 1.1rem;
+    color: #f4f4f4;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}

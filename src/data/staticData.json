@@ -1,0 +1,899 @@
+[
+    {
+        "id": "a23b5c",
+        "title": "Cozy and Charming Cottage with Ocean Views",
+        "description": "This charming cottage offers a peaceful retreat with stunning ocean views, a comfortable living area, and two cozy bedrooms. The kitchen is fully equipped for preparing meals, and the deck is perfect for watching the sunset. Perfect for a weekend getaway or a year-round residence.",
+        "localization": {
+            "street": "7302 Windy Way",
+            "city": "Bakersfield",
+            "state": "CA",
+            "zip": "93308",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 123-4567",
+        "email": "info@realestate.com",
+        "price": "$750,000",
+        "num_bedrooms": 2,
+        "area": 55,
+        "bathrooms": 2,
+        "img": "https://images.unsplash.com/photo-1605146769289-440113cc3d00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+    },
+    {
+        "id": "87k2d1",
+        "title": "Modern and Stylish Townhouse in the Heart of the City",
+        "description": "This modern and stylish townhouse boasts a bright and spacious open-concept living area, three comfortable bedrooms, and two modern bathrooms. The kitchen features top-of-the-line appliances and ample counter space, perfect for hosting dinner parties. Take advantage of the building's luxurious amenities, including a fitness center and rooftop terrace.",
+        "localization": {
+            "street": "1445 Main St",
+            "city": "Columbia",
+            "state": "SC",
+            "zip": "29201",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 234-5678",
+        "email": "info@realestate.com",
+        "price": "$1,350,000",
+        "num_bedrooms": 3,
+        "area": 149,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1628133287836-40bd5453bed1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "x9z5y1",
+        "title": "Stunning and Spacious Family Home with Pool",
+        "description": "This stunning family home features an open-concept living area with high ceilings, a cozy fireplace, and a gourmet kitchen with high-end appliances. The master bedroom offers a luxurious ensuite bathroom and plenty of closet space. The beautifully landscaped backyard features a sparkling pool and is perfect for outdoor entertaining and relaxing.",
+        "localization": {
+            "street": "9325 Salal Dr",
+            "city": "Anchorage",
+            "state": "AK",
+            "zip": "99502",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 345-6789",
+        "email": "info@realestate.com",
+        "price": "$1,500,000",
+        "num_bedrooms": 4,
+        "area": 82,
+        "bathrooms": 2,
+        "img": "https://images.unsplash.com/photo-1605146768851-eda79da39897?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "m7n4p2",
+        "title": "Charming and Rustic Cabin in the Woods",
+        "description": "This charming cabin offers a peaceful retreat in the heart of the woods, with a cozy living area, well-equipped kitchen, and two comfortable bedrooms. Enjoy the beautiful views from the deck, or take a stroll through the forest for a hike or picnic. Perfect for a weekend getaway or a year-round residence.",
+        "localization": {
+            "street": "3130 S Ashland Ave",
+            "city": "Chicago",
+            "state": "IL",
+            "zip": "60608",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 456-7890",
+        "email": "info@realestate.com",
+        "price": "$400,000",
+        "num_bedrooms": 2,
+        "area": 110,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+
+    {
+        "id": "p5l2o8",
+        "title": "Luxurious and Modern Apartment with City Views",
+        "description": "This luxurious and modern apartment boasts stunning city views from the floor-to-ceiling windows, a spacious and bright open-concept living area, and two comfortable bedrooms. The kitchen features high-end appliances and plenty of counter space. Take advantage of the building's amenities, including a fitness center and rooftop terrace.",
+        "localization": {
+            "street": "89 Little Hampton St",
+            "city": "East Boston",
+            "state": "MA",
+            "zip": "02128",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 567-8901",
+        "email": "info@realestate.com",
+        "price": "$2,000,000",
+        "num_bedrooms": 2,
+        "area": 173,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1625602812206-5ec545ca1231?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "t4r8s1",
+        "title": "Charming and Quaint Colonial Home with Historical Charm",
+        "description": "This charming colonial home boasts plenty of historical charm, with original hardwood floors, crown moldings, and vintage fixtures. The cozy living room features a fireplace, perfect for relaxing on cold winter nights. The backyard is beautifully landscaped and perfect for outdoor entertaining and gardening.",
+        "localization": {
+            "street": "921 Peachtree St NE",
+            "city": "Atlanta",
+            "state": "GA",
+            "zip": "30309",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 678-9012",
+        "email": "info@realestate.com",
+        "price": "$950,000",
+        "num_bedrooms": 3,
+        "area": 63,
+        "bathrooms": 2,
+        "img": "https://images.unsplash.com/photo-1590415555114-d308bf24212e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+        "id": "q3w2e1",
+        "title": "Stunning and Private Oceanfront Estate",
+        "description": "This stunning oceanfront estate offers complete privacy and tranquility, with breathtaking ocean views from every room. The open-concept living area features a cozy fireplace and plenty of natural light. The beautifully landscaped backyard features a pool and hot tub, perfect for outdoor entertaining and relaxing. A truly rare and unique opportunity.",
+        "localization": {
+            "street": "38 Brighton 6th Path",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11235",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 789-0123",
+        "email": "info@realestate.com",
+        "price": "$5,000,000",
+        "num_bedrooms": 5,
+        "area": 70,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1628744448840-55bdb2497bd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "b6c7d8",
+        "title": "Chic and Modern Loft with Industrial Flair",
+        "description": "This chic and modern loft boasts industrial flair, with exposed brick walls, high ceilings, and plenty of natural light. The open-concept living area features a gourmet kitchen and ample space for dining and entertaining. The bedroom offers a peaceful retreat, with a spa-like ensuite bathroom and plenty of closet space.",
+        "localization": {
+            "street": "419 9th St",
+            "city": "San Francisco",
+            "state": "CA",
+            "zip": "94103",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 890-1234",
+        "email": "info@realestate.com",
+        "price": "$1,200,000",
+        "num_bedrooms": 1,
+        "area": 153,
+        "bathrooms": 2,
+        "img": "https://images.unsplash.com/photo-1628744448839-170bf324f27e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+
+    {
+        "id": "n8m4t2",
+        "title": "Spacious and Bright Family Home with Large Backyard",
+        "description": "This spacious and bright family home features an open-concept living area, perfect for entertaining and family gatherings. The kitchen features stainless steel appliances and plenty of counter space. The backyard is large and beautifully landscaped, with plenty of room for kids to play and for outdoor entertaining.",
+        "localization": {
+            "street": "1959 S Atlantic Blvd",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zip": "90022",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 012-3456",
+        "email": "info@realestate.com",
+        "price": "$800,000",
+        "num_bedrooms": 4,
+        "area": 86,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1611602132416-da2045990f76?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+        "id": "v1b3n2",
+        "title": "Cozy and Charming Cottage with Country Charm",
+        "description": "This cozy and charming cottage boasts plenty of country charm, with a welcoming front porch, hardwood floors, and vintage fixtures. The living room features a fireplace, perfect for relaxing on cold winter nights. The backyard is beautifully landscaped and perfect for outdoor entertaining and gardening.",
+        "localization": {
+            "street": "30 Montclair Ave",
+            "city": "Montclair",
+            "state": "NJ",
+            "zip": "07042",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 234-5678",
+        "email": "info@realestate.com",
+        "price": "$500,000",
+        "num_bedrooms": 2,
+        "area": 120,
+        "bathrooms": 2,
+        "img": "https://images.unsplash.com/photo-1631149784601-8e6c266b046a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80"
+    },
+    {
+        "id": "f7h3j9",
+        "title": "Spectacular and Luxurious Mountain Retreat",
+        "description": "This spectacular mountain retreat offers complete privacy and tranquility, with breathtaking mountain views from every room. The open-concept living area features a cozy fireplace and plenty of natural light. The beautifully landscaped backyard features a hot tub and fire pit, perfect for outdoor entertaining and relaxing. A truly rare and unique opportunity.",
+        "localization": {
+            "street": "1 Central Park W",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10023",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 345-6789",
+        "email": "info@realestate.com",
+        "price": "$3,500,000",
+        "num_bedrooms": 6,
+        "area": 172,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1588880331179-bc9b93a8cb5e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "k4p6l1",
+        "title": "Elegant and Classic Townhouse with Modern Updates",
+        "description": "This elegant and classic townhouse boasts modern updates, including a gourmet kitchen with high-end appliances and a beautifully renovated bathroom. The spacious living room features a fireplace and plenty of natural light. The backyard is beautifully landscaped and perfect for outdoor entertaining and relaxing.",
+        "localization": {
+            "street": "5500 Wabash Ave",
+            "city": "Terre Haute",
+            "state": "IN",
+            "zip": "47803",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 456-7890",
+        "email": "info@realestate.com",
+        "price": "$1,500,000",
+        "num_bedrooms": 3,
+        "area": 113,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1585544314038-a0d3769d0193?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+        "id": "z8x2v7",
+        "title": "Modern and Spacious Loft in Trendy Neighborhood",
+        "description": "This modern and spacious loft boasts high ceilings, hardwood floors, and plenty of natural light. The open-concept living area is perfect for entertaining, with a gourmet kitchen and plenty of room for seating. The building amenities include a gym, rooftop deck, and 24-hour concierge service.",
+        "localization": {
+            "street": "5201 E Craig Rd",
+            "city": "Las Vegas",
+            "state": "NV",
+            "zip": "89115",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 567-8901",
+        "email": "info@realestate.com",
+        "price": "$1,200,000",
+        "num_bedrooms": 1,
+        "area": 63,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1625603736199-775425d2890a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+        "id": "d2g7q1",
+        "title": "Charming and Cozy Bungalow with Private Garden",
+        "description": "This charming and cozy bungalow features a private garden oasis, perfect for relaxing and enjoying nature. The living room features a fireplace and hardwood floors, with plenty of natural light. The kitchen has been updated with modern appliances and fixtures. A truly unique and special property.",
+        "localization": {
+            "street": "320 N Lake Shore Dr",
+            "city": "Chicago",
+            "state": "IL",
+            "zip": "60611",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 678-9012",
+        "email": "info@realestate.com",
+        "price": "$600,000",
+        "num_bedrooms": 2,
+        "area": 118,
+        "bathrooms": 2,
+        "img": "https://images.unsplash.com/photo-1480074568708-e7b720bb3f09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1474&q=80"
+    },
+    {
+        "id": "r9t2m6",
+        "title": "Luxurious and Elegant Penthouse with Panoramic Views",
+        "description": "This luxurious and elegant penthouse boasts panoramic views of the city skyline and waterfront. The open-concept living area features high-end finishes, including marble countertops and stainless steel appliances. The building amenities include a pool, gym, and 24-hour concierge service.",
+        "localization": {
+            "street": "2052 Almond Ave",
+            "city": "Concord",
+            "state": "CA",
+            "zip": "94520",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 890-1234",
+        "email": "info@realestate.com",
+        "price": "$5,000,000",
+        "num_bedrooms": 4,
+        "area": 56,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1613667650324-ed09383eb8e5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "s3w8e2",
+        "title": "Stunning and Modern Villa with Infinity Pool",
+        "description": "This stunning and modern villa boasts an infinity pool with breathtaking ocean views. The open-concept living area features floor-to-ceiling windows and high-end finishes, including marble floors and custom lighting. The backyard is beautifully landscaped and perfect for outdoor entertaining and relaxing.",
+        "localization": {
+            "street": "2918 N Blackstone Ave",
+            "city": "Fresno",
+            "state": "CA",
+            "zip": "93703",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 234-5678",
+        "email": "info@realestate.com",
+        "price": "$3,000,000",
+        "num_bedrooms": 5,
+        "area": 147,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1576941089067-2de3c901e126?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1278&q=80"
+    },
+    {
+        "id": "c6d1f7",
+        "title": "Cozy and Charming Cottage with Mountain Views",
+        "description": "This cozy and charming cottage boasts mountain views and a peaceful, serene setting. The living area features a wood-burning stove and hardwood floors, with plenty of natural light. The kitchen has been updated with modern appliances and fixtures. A perfect retreat for nature lovers.",
+        "localization": {
+            "street": "1208 E Valley Blvd",
+            "city": "Alhambra",
+            "state": "CA",
+            "zip": "91801",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 345-6789",
+        "email": "info@realestate.com",
+        "price": "$800,000",
+        "num_bedrooms": 3,
+        "area": 60,
+        "bathrooms": 2,
+        "img": "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "y1v9b3",
+        "title": "Modern and Sleek Condo in Vibrant Downtown",
+        "description": "This modern and sleek condo features floor-to-ceiling windows with views of the vibrant downtown area. The open-concept living area is perfect for entertaining, with a gourmet kitchen and plenty of room for seating. The building amenities include a pool, gym, and 24-hour concierge service.",
+        "localization": {
+            "street": "1554 Broadway",
+            "city": "Seattle",
+            "state": "WA",
+            "zip": "98122",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 456-7890",
+        "email": "info@realestate.com",
+        "price": "$1,500,000",
+        "num_bedrooms": 2,
+        "area": 178,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1503627381655-17cf0637efc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+    },
+    {
+        "id": "n4m2t8",
+        "title": "Elegant and Spacious Estate on Private Acres",
+        "description": "This elegant and spacious estate sits on several private acres, with beautifully landscaped grounds and a serene setting. The living area features a grand staircase and high ceilings, with plenty of natural light. The kitchen has been updated with modern appliances and finishes. A truly luxurious property.",
+        "localization": {
+            "street": "8320 US-64",
+            "city": "Memphis",
+            "state": "TN",
+            "zip": "38133",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 567-8901",
+        "email": "info@realestate.com",
+        "price": "$7,500,000",
+        "num_bedrooms": 6,
+        "area": 117,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1519236282064-01649736e20b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1026&q=80"
+    },
+    {
+        "id": "j2k1l7",
+        "title": "Bright and Airy Townhome in Family-Friendly Neighborhood",
+        "description": "This bright and airy townhome is located in a family-friendly neighborhood, with plenty of green space and parks nearby. The living area features hardwood floors and large windows, with plenty of natural light. The kitchen has been updated with modern appliances and fixtures. A perfect home for a growing family.",
+        "localization": {
+            "street": "443 Lafayette Ave",
+            "city": "Brooklyn",
+            "state": "NY",
+            "zip": "11205",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 678-9012",
+        "email": "info@realestate.com",
+        "price": "$950,000",
+        "num_bedrooms": 4,
+        "area": 60,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1594817974283-1ca24fbd6ea3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+
+    {
+        "id": "u8i3o1",
+        "title": "Rustic and Cozy Log Cabin on Wooded Lot",
+        "description": "This rustic and cozy log cabin sits on a wooded lot, with plenty of privacy and seclusion. The living area features a stone fireplace and exposed log beams, with a warm and inviting atmosphere. The kitchen has been updated with modern appliances and fixtures. A perfect retreat for nature lovers.",
+        "localization": {
+            "street": "5214 Lee St NE",
+            "city": "Albuquerque",
+            "state": "NM",
+            "zip": "87110",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 789-0123",
+        "email": "info@realestate.com",
+        "price": "$600,000",
+        "num_bedrooms": 2,
+        "area": 95,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1608460538152-56571d16b11e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1190&q=80"
+    },
+    {
+        "id": "e2h7f3",
+        "title": "Charming and Historic Home in Quaint Village",
+        "description": "This charming and historic home is located in a quaint village, with a close-knit community and friendly neighbors. The living area features original hardwood floors and vintage details, with plenty of character. The kitchen has been updated with modern appliances and finishes. A perfect home for history buffs.",
+        "localization": {
+            "street": "358 W Ontario St",
+            "city": "Chicago",
+            "state": "IL",
+            "zip": "60654",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 890-1234",
+        "email": "info@realestate.com",
+        "price": "$750,000",
+        "num_bedrooms": 4,
+        "area": 122,
+        "bathrooms": 2,
+        "img": "https://images.unsplash.com/photo-1579627559219-4d47bcb52988?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "o9p1q2",
+        "title": "Sleek and Stylish Loft in Trendy Urban Area",
+        "description": "This sleek and stylish loft is located in a trendy urban area, with plenty of restaurants and nightlife nearby. The living area features an open-concept design and industrial details, with a modern and edgy vibe. The building amenities include a rooftop terrace and fitness center.",
+        "localization": {
+            "street": "1919 N Fort Myer Dr",
+            "city": "Arlington",
+            "state": "VA",
+            "zip": "22209",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 234-5678",
+        "email": "info@realestate.com",
+        "price": "$1,200,000",
+        "num_bedrooms": 2,
+        "area": 168,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1600184149481-9d164f98b7b0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80"
+    },
+    {
+        "id": "x5z1y9",
+        "title": "Spacious and Modern Home in Quiet Suburb",
+        "description": "This spacious and modern home is located in a quiet suburb, with easy access to shopping and schools. The living area features an open-concept design and high ceilings, with plenty of natural light. The kitchen has been updated with modern appliances and finishes. A perfect home for a growing family.",
+        "localization": {
+            "street": "4321 W Flamingo Rd",
+            "city": "Las Vegas",
+            "state": "NV",
+            "zip": "89103",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 345-6789",
+        "email": "info@realestate.com",
+        "price": "$900,000",
+        "num_bedrooms": 5,
+        "area": 64,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1628744448839-a475cc0e90c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "l1k7j3",
+        "title": "Coastal Cottage with Ocean Views and Breezes",
+        "description": "This charming coastal cottage boasts ocean views and breezes, with a relaxed and laid-back atmosphere. The living area features a fireplace and hardwood floors, with plenty of natural light. The kitchen has been updated with modern appliances and fixtures. A perfect beach retreat.",
+        "localization": {
+            "street": "524 Washington Ave",
+            "city": "Miami Beach",
+            "state": "FL",
+            "zip": "33139",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 456-7890",
+        "email": "info@realestate.com",
+        "price": "$950,000",
+        "num_bedrooms": 3,
+        "area": 98,
+        "bathrooms": 2,
+        "img": "https://images.unsplash.com/photo-1487975460695-a2e5c4ea12c9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+        "id": "w2e8r1",
+        "title": "Elegant and Spacious Home with Pool and Garden",
+        "description": "This elegant and spacious home boasts a pool and garden, with a luxurious and refined atmosphere. The living area features a fireplace and marble floors, with plenty of space for entertaining. The kitchen has been updated with high-end appliances and finishes. A perfect home for entertaining.",
+        "localization": {
+            "street": "300 Post St",
+            "city": "San Francisco",
+            "state": "CA",
+            "zip": "94108",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 567-8901",
+        "email": "info@realestate.com",
+        "price": "$1,800,000",
+        "num_bedrooms": 6,
+        "area": 163,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1657364011053-2d222b26b2fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80"
+    },
+    {
+        "id": "b7c8d2",
+        "title": "Modern and Minimalist Apartment with City Views",
+        "description": "This modern and minimalist apartment boasts city views, with a sleek and contemporary design. The living area features an open-concept design and floor-to-ceiling windows, with plenty of natural light. The building amenities include a rooftop terrace and fitness center.",
+        "localization": {
+            "street": "4910 E Main St",
+            "city": "Mesa",
+            "state": "AZ",
+            "zip": "85205",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 678-9012",
+        "email": "info@realestate.com",
+        "price": "$950,000",
+        "num_bedrooms": 2,
+        "area": 89,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1501197698593-0ccc1dfbd866?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1312&q=80"
+    },
+    {
+        "id": "t2m4n7",
+        "title": "Cozy and Inviting Bungalow with Outdoor Space",
+        "description": "This cozy and inviting bungalow boasts outdoor space, with a warm and inviting atmosphere. The living area features a fireplace and hardwood floors, with plenty of character. The kitchen has been updated with modern appliances and finishes. A perfect home for nature lovers.",
+        "localization": {
+            "street": "1051 N Haven Ave",
+            "city": "Ontario",
+            "state": "CA",
+            "zip": "91764",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 789-0123",
+        "email": "info@realestate.com",
+        "price": "$450,000",
+        "num_bedrooms": 2,
+        "area": 86,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1516095901529-0ef7be431a4f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "g3f1h7",
+        "title": "Charming and Quaint Cottage with Garden Oasis",
+        "description": "This charming and quaint cottage boasts a garden oasis, with a peaceful and serene atmosphere. The living area features a fireplace and hardwood floors, with plenty of natural light. The kitchen has been updated with modern appliances and fixtures. A perfect escape from the hustle and bustle of city life.",
+        "localization": {
+            "street": "1667 K St NW",
+            "city": "Washington",
+            "state": "DC",
+            "zip": "20006",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 890-1234",
+        "email": "info@realestate.com",
+        "price": "$650,000",
+        "num_bedrooms": 2,
+        "area": 89,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1527704127313-9738426085be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1451&q=80"
+    },
+    {
+        "id": "q1w2e3",
+        "title": "Spectacular and Luxurious Penthouse with Skyline Views",
+        "description": "This spectacular and luxurious penthouse boasts skyline views, with a lavish and opulent design. The living area features high ceilings and floor-to-ceiling windows, with plenty of space for entertaining. The building amenities include a rooftop pool and concierge service.",
+        "localization": {
+            "street": "7211 Colony Park Dr",
+            "city": "Houston",
+            "state": "TX",
+            "zip": "77036",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 901-2345",
+        "email": "info@realestate.com",
+        "price": "$5,000,000",
+        "num_bedrooms": 4,
+        "area": 52,
+        "bathrooms": 2,
+        "img": "https://images.unsplash.com/photo-1501595685668-178fc57e6146?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "v9b3n1",
+        "title": "Chic and Stylish Loft with Industrial Charm",
+        "description": "This chic and stylish loft boasts industrial charm, with a trendy and fashionable design. The living area features an open-concept design and exposed brick walls, with plenty of natural light. The building amenities include a fitness center and rooftop terrace.",
+        "localization": {
+            "street": "2727 N Central Ave",
+            "city": "Phoenix",
+            "state": "AZ",
+            "zip": "85004",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 123-4567",
+        "email": "info@realestate.com",
+        "price": "$1,200,000",
+        "num_bedrooms": 2,
+        "area": 144,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "m4t8n2",
+        "title": "Spacious and Comfortable Family Home with Pool",
+        "description": "This spacious and comfortable family home boasts a pool, with a warm and inviting atmosphere. The living area features a fireplace and hardwood floors, with plenty of space for entertaining. The kitchen has been updated with modern appliances and finishes. A perfect home for families.",
+        "localization": {
+            "street": "42 Montclair Ave",
+            "city": "Montclair",
+            "state": "NJ",
+            "zip": "07042",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 234-5678",
+        "email": "info@familyrealty.com",
+        "price": "$850,000",
+        "num_bedrooms": 4,
+        "area": 105,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1598041476871-ba9f1e7bb644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=767&q=80"
+    },
+    {
+        "id": "h3j7f2",
+        "title": "Cozy and Quaint Bungalow with Garden Retreat",
+        "description": "This cozy and quaint bungalow boasts a garden retreat, with a peaceful and tranquil atmosphere. The living area features a fireplace and hardwood floors, with plenty of natural light. The kitchen has been updated with modern appliances and fixtures. A perfect home for nature lovers.",
+        "localization": {
+            "street": "1495 Southgate Ave",
+            "city": "Daly City",
+            "state": "CA",
+            "zip": "94015",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 567-8901",
+        "email": "info@realestate.com",
+        "price": "$450,000",
+        "num_bedrooms": 2,
+        "area": 81,
+        "bathrooms": 2,
+        "img": "https://images.unsplash.com/photo-1583608205776-bfd35f0d9f83?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "p6o9k1",
+        "title": "Stunning and Sophisticated Villa with Ocean Views",
+        "description": "This stunning and sophisticated villa boasts ocean views, with an elegant and refined design. The living area features high ceilings and marble floors, with plenty of space for entertaining. The outdoor terrace is perfect for enjoying the sunset. A perfect home for those who love luxury living.",
+        "localization": {
+            "street": "299 N Euclid Ave",
+            "city": "Upland",
+            "state": "CA",
+            "zip": "91786",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 345-6789",
+        "email": "info@realestate.com",
+        "price": "$4,000,000",
+        "num_bedrooms": 5,
+        "area": 158,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1638814970130-6baaa07c3c91?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=717&q=80"
+    },
+    {
+        "id": "y9x5z1",
+        "title": "Modern and Sleek Condo with City Views",
+        "description": "This modern and sleek condo boasts city views, with a minimalist and contemporary design. The living area features an open-concept layout and floor-to-ceiling windows, with plenty of natural light. The building amenities include a fitness center and rooftop terrace.",
+        "localization": {
+            "street": "5029 W Olive Ave",
+            "city": "Glendale",
+            "state": "AZ",
+            "zip": "85302",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 678-9012",
+        "email": "info@realestate.com",
+        "price": "$800,000",
+        "num_bedrooms": 2,
+        "area": 138,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1557040343-826391a0acad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1475&q=80"
+    },
+    {
+        "id": "k7l1j2",
+        "title": "Charming and Cozy Cottage with Mountain Views",
+        "description": "This charming and cozy cottage boasts mountain views, with a warm and inviting atmosphere. The living area features a fireplace and hardwood floors, with plenty of natural light. The kitchen has been updated with modern appliances and finishes. A perfect home for a peaceful retreat.",
+        "localization": {
+            "street": "408 North St",
+            "city": "Pittsfield",
+            "state": "MA",
+            "zip": "01201",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 789-1234",
+        "email": "info@realestate.com",
+        "price": "$550,000",
+        "num_bedrooms": 3,
+        "area": 79,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+
+    {
+        "id": "r1w2e8",
+        "title": "Spacious and Serene Townhouse with Private Garden",
+        "description": "This spacious and serene townhouse boasts a private garden, with a peaceful and tranquil atmosphere. The living area features hardwood floors and large windows, with plenty of natural light. The kitchen has been updated with modern appliances and finishes. A perfect home for those who love outdoor living.",
+        "localization": {
+            "street": "12600 SE 38th St",
+            "city": "Bellevue",
+            "state": "WA",
+            "zip": "98006",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 123-4567",
+        "email": "info@realestate.com",
+        "price": "$750,000",
+        "num_bedrooms": 4,
+        "area": 69,
+        "bathrooms": 2,
+        "img": "https://images.unsplash.com/photo-1639084932110-91a8b834e23a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "c8b7d2",
+        "title": "Luxurious and Modern Penthouse with Skyline Views",
+        "description": "This luxurious and modern penthouse boasts skyline views, with an elegant and refined design. The living area features high ceilings and floor-to-ceiling windows, with plenty of space for entertaining. The building amenities include a fitness center and rooftop terrace.",
+        "localization": {
+            "street": "2915 E Colonial Dr",
+            "city": "Orlando",
+            "state": "FL",
+            "zip": "32803",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 456-7890",
+        "email": "info@realestate.com",
+        "price": "$2,500,000",
+        "num_bedrooms": 3,
+        "area": 170,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1596029927281-8ee4fa73a556?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+    },
+    {
+        "id": "n7t4m2",
+        "title": "Cozy and Quaint Ranch House with Scenic Views",
+        "description": "This cozy and quaint ranch house boasts scenic views, with a warm and inviting atmosphere. The living area features a fireplace and hardwood floors, with plenty of natural light. The kitchen has been updated with modern appliances and fixtures. A perfect home for those who love nature.",
+        "localization": {
+            "street": "211 W Main St",
+            "city": "Chattanooga",
+            "state": "TN",
+            "zip": "37408",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 789-0123",
+        "email": "info@realestate.com",
+        "price": "$650,000",
+        "num_bedrooms": 2,
+        "area": 56,
+        "bathrooms": 2,
+        "img": "https://images.unsplash.com/photo-1505819244306-ef53954f9648?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=699&q=80"
+    },
+    {
+        "id": "f1h7g3",
+        "title": "Elegant and Spacious Colonial with Garden Oasis",
+        "description": "This elegant and spacious colonial boasts a garden oasis, with a luxurious and refined design. The living area features hardwood floors and large windows, with plenty of natural light. The kitchen has been updated with modern appliances and finishes. A perfect home for those who love outdoor living.",
+        "localization": {
+            "street": "6333 W 3rd St",
+            "city": "Los Angeles",
+            "state": "CA",
+            "zip": "90036",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 234-5678",
+        "email": "info@realestate.com",
+        "price": "$1,200,000",
+        "num_bedrooms": 4,
+        "area": 76,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1511452885600-a3d2c9148a31?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=721&q=80"
+    },
+    {
+        "id": "e3q2w1",
+        "title": "Sleek and Modern Apartment with City Views",
+        "description": "This sleek and modern apartment boasts city views, with a minimalist and contemporary design. The living area features an open-concept layout and floor-to-ceiling windows, with plenty of natural light. The building amenities include a fitness center and rooftop terrace.",
+        "localization": {
+            "street": "10 Causeway St",
+            "city": "Boston",
+            "state": "MA",
+            "zip": "02222",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 567-8901",
+        "email": "info@realestate.com",
+        "price": "$600,000",
+        "num_bedrooms": 2,
+        "area": 116,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1486509556775-a2404e7d7d7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "n1v9b3",
+        "title": "Stylish and Spacious Loft with Industrial Flair",
+        "description": "This stylish and spacious loft boasts an industrial flair, with an open-concept layout and plenty of natural light. The living area features hardwood floors and exposed brick walls, with high ceilings. The building amenities include a fitness center and rooftop terrace.",
+        "localization": {
+            "street": "1 N State St",
+            "city": "Chicago",
+            "state": "IL",
+            "zip": "60602",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 789-0123",
+        "email": "info@realestate.com",
+        "price": "$800,000",
+        "num_bedrooms": 1,
+        "area": 89,
+        "bathrooms": 1,
+        "img": "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+    },
+    {
+        "id": "s2d1f7",
+        "title": "Chic and Modern Condo with City Views",
+        "description": "This chic and modern condo boasts city views, with a sleek and contemporary design. The living area features an open-concept layout and floor-to-ceiling windows, with plenty of natural light. The building amenities include a fitness center and rooftop terrace.",
+        "localization": {
+            "street": "523 E Adams St",
+            "city": "Phoenix",
+            "state": "AZ",
+            "zip": "85004",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 234-5678",
+        "email": "info@realestate.com",
+        "price": "$1,000,000",
+        "num_bedrooms": 2,
+        "area": 170,
+        "bathrooms": 2,
+        "img": "https://images.unsplash.com/photo-1605346298331-321e06b92313?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=979&q=80"
+    },
+    {
+        "id": "g6h8j9",
+        "title": "Spacious and Modern Family Home with Backyard Oasis",
+        "description": "This spacious and modern family home boasts a backyard oasis, with a luxurious and refined design. The living area features hardwood floors and large windows, with plenty of natural light. The kitchen has been updated with modern appliances and finishes. A perfect home for those who love outdoor living.",
+        "localization": {
+            "street": "109 E 42nd St",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10017",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 567-8901",
+        "email": "info@realestate.com",
+        "price": "$1,500,000",
+        "num_bedrooms": 5,
+        "area": 157,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1562073358-108876d35ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+    },
+    {
+        "id": "g6h8j93",
+        "title": "Spacious and Modern Family Home with Backyard Oasis",
+        "description": "This spacious and modern family home boasts a backyard oasis, with a luxurious and refined design. The living area features hardwood floors and large windows, with plenty of natural light. The kitchen has been updated with modern appliances and finishes. A perfect home for those who love outdoor living.",
+        "localization": {
+            "street": "109 E 42nd St",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10017",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 567-8901",
+        "email": "sanchossjmistik@gmail.com",
+        "price": "$1,500,000",
+        "num_bedrooms": 5,
+        "area": 157,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1562073358-108876d35ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+    },
+    {
+        "id": "g6h8j92",
+        "title": "Spacious and Modern Family Home with Backyard Oasis",
+        "description": "This spacious and modern family home boasts a backyard oasis, with a luxurious and refined design. The living area features hardwood floors and large windows, with plenty of natural light. The kitchen has been updated with modern appliances and finishes. A perfect home for those who love outdoor living.",
+        "localization": {
+            "street": "109 E 42nd St",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10017",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 567-8901",
+        "email": "sanchossjmistik@gmail.com",
+        "price": "$1,500,000",
+        "num_bedrooms": 5,
+        "area": 157,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1562073358-108876d35ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+    },
+    {
+        "id": "g6h8j91",
+        "title": "Spacious and Modern Family Home with Backyard Oasis",
+        "description": "This spacious and modern family home boasts a backyard oasis, with a luxurious and refined design. The living area features hardwood floors and large windows, with plenty of natural light. The kitchen has been updated with modern appliances and finishes. A perfect home for those who love outdoor living.",
+        "localization": {
+            "street": "109 E 42nd St",
+            "city": "New York",
+            "state": "NY",
+            "zip": "10017",
+            "country": "US"
+        },
+        "phone_number": "+1 (555) 567-8901",
+        "email": "sanchossjmistik@gmail.com",
+        "price": "$1,500,000",
+        "num_bedrooms": 5,
+        "area": 157,
+        "bathrooms": 3,
+        "img": "https://images.unsplash.com/photo-1562073358-108876d35ce0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+    }
+]
