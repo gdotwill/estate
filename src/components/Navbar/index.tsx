@@ -5,8 +5,8 @@ import { AuthActions } from "./AuthActions ";
 
 const navLinks = [
   { label: "Home", href: "/" },
-  { label: "Buy", href: "/buy" },
-  { label: "Sell", href: "/sell" },
+  // { label: "Buy", href: "/buy" },
+  // { label: "Sell", href: "/sell" },
   { label: "Contact", href: "/contact" },
 ];
 

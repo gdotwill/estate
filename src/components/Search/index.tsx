@@ -34,7 +34,7 @@ export const SearchBar = ({ setSearchItems, properties }: ISearch) => {
   };
 
   return (
-    <div className={styles.container}>
+    <div className="max-w-md mx-auto">
       <Formik
         initialValues={initialSearch}
         onSubmit={handleSubmit}
@@ -42,47 +42,25 @@ export const SearchBar = ({ setSearchItems, properties }: ISearch) => {
       >
         {(formik) => (
           <Form>
-            <div className={styles.barWrapper}>
-              <TextSearch name={"title"} />
-              <button type="submit" disabled={!formik.dirty || !formik.isValid}>
-                Search
-              </button>
-            </div>
-            <div className={styles.selectsWrapper}>
-              <div className={styles.range}>
-                <RangeSearch
-                  label={"Min Price"}
-                  name={"minPrice"}
-                  options={priceRange}
-                  formatPrice={formatPrice}
-                  formik={formik}
-                />
-                <RangeSearch
-                  label={"Max Price"}
-                  name={"maxPrice"}
-                  options={priceRange}
-                  formatPrice={formatPrice}
-                  formik={formik}
-                />
-              </div>
-              <div className={styles.range}>
-                <RangeSearch
-                  label={"Min Bedrooms"}
-                  name={"minBedrooms"}
-                  options={bedroomsRange}
-                  formik={formik}
-                />
-                <RangeSearch
-                  label={"Max Bedrooms"}
-                  name={"maxBedrooms"}
-                  options={bedroomsRange}
-                  formik={formik}
-                />
-              </div>
-            </div>
+        
+                <label for="default-search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+                <div className="relative">
+                    <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                        <svg className="w-4 h-4 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+                        </svg>
+                    </div>
+                    <TextSearch name={"title"} />
+                    <button type="submit" className="text-white absolute end-2.5 bottom-2.5 bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Search</button>
+                </div>
+   
           </Form>
         )}
       </Formik>
     </div>
   );
 };
+
+
+
+

@@ -8,10 +8,4 @@ export const initialValues: FormValues = {
     price: "",
     description: "",
     img: "",
-    phone_number: "",
-    street: "",
-    city: "",
-    state: "",
-    zip: "",
-    country: "",
 };

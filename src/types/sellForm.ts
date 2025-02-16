@@ -6,10 +6,4 @@ export type FormValues = {
     price: number | string;
     description: string;
     img: string;
-    phone_number: number | string;
-    street: string;
-    city: string;
-    state: string;
-    zip: string;
-    country: string;
 }

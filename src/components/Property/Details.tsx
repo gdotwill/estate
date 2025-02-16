@@ -15,9 +15,6 @@ export const PropertyDetails = ({ property }: { property: IProperty }) => {
       <li>
         Category: <strong>Modern House</strong>
       </li>
-      <li>
-        Lunch Date: <strong>Jan 20, 2019</strong>
-      </li>
     </ul>
   );
 };

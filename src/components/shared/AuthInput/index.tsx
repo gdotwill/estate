@@ -10,7 +10,7 @@ type IFormInput = {
 export const AuthFormInput = ({ label, name, type }: IFormInput) => {
   return (
     <div className="flex flex-col mb-6 w-full mt-14">
-      <label htmlFor={name} className="text-[#5a7184] font-semibold block">{name}</label>
+      <label htmlFor={label} className="text-[#5a7184] font-semibold block">{label}</label>
       <Field
         placeholder={label}
         type={type}

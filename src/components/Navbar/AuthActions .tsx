@@ -12,6 +12,9 @@ export const AuthActions = () => {
       {isLoggedIn ? (
         <div className={styles.wrapper}>
           <ul className={styles.navItems}>
+          <Link href={"/sell"}>
+              <li className={styles.navItem}> + Add listing</li>
+            </Link>
             <Link href={"/listed"}>
               <li className={styles.navItem}>my&#160;properties</li>
             </Link>

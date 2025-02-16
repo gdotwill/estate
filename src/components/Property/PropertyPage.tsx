@@ -32,22 +32,6 @@ export const PropertyPage = ({ property }: { property: IProperty }) => {
 
             <ContactInfo property={property} />
 
-            <div className={styles.contact_wrapper}>
-              <p className={styles.contact}>Address:</p>
-              {!property.localization ? (
-                <div>
-                  <p>{property.street}</p>
-                  <p>{property.city}</p>
-                  <p>{property.zip}</p>
-                </div>
-              ) : (
-                <div>
-                  <p>{property.localization.street || property.street}</p>
-                  <p>{property.localization.city || property.city}</p>
-                  <p>{property.localization.zip || property.zip}</p>
-                </div>
-              )}
-            </div>
           </div>
         </div>
       </div>

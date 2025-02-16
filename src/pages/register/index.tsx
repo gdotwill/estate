@@ -12,10 +12,7 @@ const Login = () => {
   return (
     <>
       <SEOHead title="Sign up" />
-
-      <div className={styles.signin_box}>
-        <SignUpForm />
-      </div>
+      <SignUpForm />
     </>
   );
 };

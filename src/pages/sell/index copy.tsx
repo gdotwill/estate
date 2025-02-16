@@ -72,47 +72,69 @@ const Sell = () => {
                 Provide us with the details of the property you are selling.
               </p>
 
-              <SellInput name="title" placeholder="Title" label="Title" />
+              <SellInput name="title" placeholder="title" label="title" />
               <div className={styles.flex}>
                 <SellInput
                   name="num_bedrooms"
-                  placeholder="Bedrooms"
-                  label="Bedrooms"
+                  placeholder="bedrooms"
+                  label="bedrooms"
                   type="number"
                 />
 
                 <SellInput
                   name="bathrooms"
-                  placeholder="Bathrooms"
-                  label="Bathrooms"
+                  placeholder="bathrooms"
+                  label="bathrooms"
                   type="number"
                 />
               </div>
               <div className={styles.flex}>
                 <SellInput
                   name="area"
-                  placeholder="Area"
-                  label="Area"
+                  placeholder="area"
+                  label="area"
                   type="number"
                 />
                 <SellInput
                   name="price"
-                  placeholder="Price"
-                  label="Price"
+                  placeholder="price"
+                  label="price"
                   type="number"
                 />
               </div>
 
               <TextareaInput
                 name="description"
-                placeholder="Description"
-                label="Description"
+                placeholder="description"
+                label="description"
               />
               <UploadInput
                 name="img"
                 uplander={handleImageUpload}
                 fileRef={fileRef}
               />
+              <div className={styles.flex}>
+                <SellInput
+                  name="phone_number"
+                  placeholder="phone number"
+                  label="phone number"
+                  type="tel"
+                />
+              </div>
+              <SellInput name="street" placeholder="street " label="street" />
+
+              <div className={styles.flex}>
+                <SellInput name="city" placeholder="city" label="city" />
+                <SellInput name="state" placeholder="state" label="state" />
+              </div>
+              <div className={styles.flex}>
+                <SellInput name="zip" placeholder="post code" label="zip" />
+                <SellInput
+                  name="country"
+                  placeholder="country"
+                  label="country"
+                />
+              </div>
 
               <button
                 type="submit"

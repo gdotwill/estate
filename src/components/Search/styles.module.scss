@@ -1,17 +1,18 @@
 .container {
-    background-color: rgba(245, 245, 220, 0.267);
-
+    background-color: white;
     display: flex;
     justify-content: center;
-    min-height: 12rem;
-    width: 35rem;
+    min-height: 8rem;
 }
+
 .barWrapper {
-    padding: 1rem;
+    padding-top: 23px;
+}
+.search {
+    width: 200px;
 }
 .selectsWrapper {
     display: flex;
-
     justify-content: space-around;
 }
 
