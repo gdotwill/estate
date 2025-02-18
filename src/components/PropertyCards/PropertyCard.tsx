@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faVectorSquare,
   faSink,
@@ -8,7 +9,6 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import styles from "./styles.module.scss";
 import defaultImg from "@/../public/static/default_img.jpg";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { IEstateData } from "@/types/estate";
 import removeProperty from "@/lib/firebase/removeFromDB";
 
@@ -34,10 +34,6 @@ export const PropertyCard = ({
       return console.log(error);
     }
   };
-
-  if (!record) {
-    return <div>Loading...</div>;
-  }
 
   const { id, title, img, description, bathrooms, num_bedrooms, area, price } =
     record;

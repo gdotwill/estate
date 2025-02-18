@@ -13,6 +13,9 @@ import {
 
 const navLinks = [
   { label: "Home", href: "/" },
+  // { label: "Buy", href: "/buy" },
+  // { label: "Sell", href: "/sell" },
+  // { label: "Contact", href: "/contact" },
 ];
 
 const NavBar = () => {
@@ -20,17 +23,7 @@ const NavBar = () => {
     <div className={styles.container}>
       <div className={styles.wrapper}>
         <ul className={styles.navItems}>
-          {navLinks.map((link, i) => (
-            <Link href={link.href} key={i}>
-              <li className={styles.navItem}>
-              <FontAwesomeIcon
-                icon={ faHome }
-                style={{ fontSize: 20, color: "white", marginRight: '10px' }}
-              />
-              Greywill Real Estate
-              </li>
-            </Link>
-          ))}
+       src/components/Navbar/index.tsx
         </ul>
       </div>
 

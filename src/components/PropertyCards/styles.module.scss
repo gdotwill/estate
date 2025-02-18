@@ -57,6 +57,7 @@
   }
   .card {
     grid-column-end: span 12;
+    border-radius: 10px;
   }
 }
 
@@ -68,6 +69,7 @@
   }
   .card {
     grid-column-end: span 12;
+    border-radius: 10px;
   }
   .card_content {
     font-size: 16px;
@@ -77,6 +79,7 @@
 @media screen and (min-width: 701px) and (max-width: 1000px) {
   .card {
     grid-column-end: span 6;
+    border-radius: 10px;
   }
 }
 
@@ -89,6 +92,8 @@
   z-index: 1;
   width: auto;
   height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .a {
@@ -126,6 +131,7 @@
   &:hover {
     transform: translateY(-7px);
   }
+  border-radius: 10px;
 }
 
 .img_overlay {
@@ -133,15 +139,21 @@
   padding-top: 56.25%;
   position: relative;
   overflow: hidden;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .img_overlay img {
   width: 100%;
   z-index: 1;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .img_overlay img:hover + div {
   width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .overlay {
@@ -153,6 +165,8 @@
   opacity: 0.8;
   z-index: 2;
   transition: all 0.5s ease 0.1s;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .title {
@@ -170,7 +184,7 @@
 .overlay:hover > .a {
   display: block;
   text-align: center;
-  border-color: #fff;
+  border-color: goldenrod;
 }
 
 .overlay .a {
@@ -266,6 +280,7 @@
   }
   .card {
     grid-column-end: span 12;
+    border-radius: 10px;
   }
 
   .card_content {
@@ -285,6 +300,7 @@
   }
   .card {
     grid-column-end: span 12;
+    border-radius: 10px;
   }
 
   .remove {

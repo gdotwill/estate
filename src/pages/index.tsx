@@ -17,31 +17,18 @@ export type ISearch = {
   properties: IEstateData[];
 };
 
+const Home = ({ properties}: InferGetServerSidePropsType<typeof getServerSideProps>) => {
 
-
-const Home = (
-  { properties}: InferGetServerSidePropsType<typeof getServerSideProps>,
-
-) => {
   const defaultDisplayProperties = getRandomItems(
     properties,
     NUM_PROPERTIES_ON_HOME_PAGE
   );
 
-  
   const [loading, setLoading] = useState(false); 
-
-  const [searchTerm, setSearchTerm] = useState(''); 
-
-  const handleSearchChange = (event: any) => {
-    setSearchTerm(event.target.value);
-  };
 
   const [query, setQuery] = useState<string>('');
 
   const [searchItems, setSearchItems] = useState(defaultDisplayProperties);
-
-  // const [searchItems, setSearchItems] = useState<ISearch[]>(data);
 
   const handleSearch = (e: React.ChangeEvent<HTMLInputElement>) => {
     const searchQuery = e.target.value;
@@ -50,12 +37,9 @@ const Home = (
       properties.filter((item) =>
         item.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         item.description.toLowerCase().includes(searchQuery.toLowerCase())
-      )
-      
-    );
-    
+      )  
+    ); 
   };
-
 
   return (
     <>
@@ -66,31 +50,39 @@ const Home = (
       />
 
       <main className={styles.main}>
-        <h1 className={styles.h1}>Find Your Dream Home</h1>
-        {/* <Search setSearchTerms={setSearchTerms} properties={properties} /> */}
-        <input
-          type="text"
-          value={query}
-          onChange={handleSearch}
-          placeholder="Search posts..."
-        />
+        <h1 className={styles.h1}>Find Your Dream Home</h1>      
+        <label className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+        <div className="relative wrapper w-xl">
+            <div className="mr-10 pr-10 absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+              <svg className="w-9 h-9 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"/>
+              </svg>
+            </div>
+            <input
+              type="text"
+              id="search"
+              style={{ width: '500px', borderRadius: '10px', padding: '20px 10px 20px 35px' }}
+              value={query}
+              onChange={handleSearch}
+              placeholder="Search properties..."
+            />
+        </div>
       </main>
+
       {
         loading ? (
-          <h1 className='text-center mt-10 text-3xl'>Loading articles...</h1>
+          <h1 className='text-center mt-10 text-3xl'>Loading properties...</h1>
 
-        ) :  searchItems.length === 0 && searchTerm ? (
-          <h1 className='text-center mt-10 text-3xl'>No articles found for "{searchTerm}"</h1> 
+        ) :  searchItems.length === 0 ? (
+          <h1 className='text-center mt-20 text-5xl'>No properties found for "{query}"</h1> 
         ) : (
           <CardsWrapper>
             {
               searchItems.map((record: IEstateData) => {
                 const { id, num_bedrooms, img, ...restData } = record;
-    
                 return <PropertyCard key={id} record={record} />;
               })}
           </CardsWrapper>
-
         )
       }
 
