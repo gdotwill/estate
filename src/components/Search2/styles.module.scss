@@ -1,0 +1,46 @@
+.container {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    min-height: 8rem;
+}
+
+.barWrapper {
+    padding-top: 23px;
+}
+.search {
+    width: 200px;
+}
+.selectsWrapper {
+    display: flex;
+    justify-content: space-around;
+}
+
+.range {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.5rem;
+}
+
+@media screen and (min-width: 780px) {
+    .container {
+        width: 45rem;
+    }
+}
+
+.error {
+    display: inline-block;
+    font-size: 1.1rem;
+    color: #f4f4f4;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.wrapper {
+    width: 500px;
+}
+
+form {
+    width: 500px!important;
+}
+

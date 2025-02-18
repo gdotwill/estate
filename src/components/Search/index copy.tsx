@@ -38,7 +38,7 @@ export const SearchBar = ({ setSearchTerms, properties }: ISearch) => {
     <div className="mx-auto">
       <Formik
         initialValues={initialSearch}
-        onChange={handleSubmit}
+        onSubmit={handleSubmit}
         validationSchema={validation}
       >
         {(formik) => (

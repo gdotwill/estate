@@ -1,6 +1,11 @@
+'use client'
+
+import { useContext, useState, useEffect } from "react";
+
 import { Field } from "formik";
 
 export const TextSearch = ({ name }: { name: string }) => {
+
   return (
     <label htmlFor={name}>
       <Field 
