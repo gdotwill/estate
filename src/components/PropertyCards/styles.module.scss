@@ -171,10 +171,10 @@
 
 .title {
   padding: 30px 0 30px 30px;
-  font-weight: 600;
+  font-weight: bold;
   text-transform: capitalize;
   color: var(--h2-text-color);
-  font-size: 1.2rem;
+  font-size: 2rem;
 }
 
 .overlay:hover {
@@ -184,7 +184,6 @@
 .overlay:hover > .a {
   display: block;
   text-align: center;
-  border-color: goldenrod;
 }
 
 .overlay .a {
@@ -194,6 +193,7 @@
   text-transform: capitalize;
   border: 2px solid transparent;
   transition: border 10s ease;
+  font-size: 20px;
 }
 
 .cont {
@@ -261,8 +261,9 @@
 }
 
 .price span:last-of-type {
-  color: #7e4a0a;
+  color: #000;
   font-size: 18px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1000px) {

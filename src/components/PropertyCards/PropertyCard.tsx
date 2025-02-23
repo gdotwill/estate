@@ -6,6 +6,7 @@ import {
   faVectorSquare,
   faSink,
   faBed,
+  faMagnifyingGlass
 } from "@fortawesome/free-solid-svg-icons";
 import styles from "./styles.module.scss";
 import defaultImg from "@/../public/static/default_img.jpg";
@@ -53,7 +54,12 @@ export const PropertyCard = ({
               alt={title}
             />
             <div className={styles.overlay}>
-              <span className={styles.a}>view property</span>
+              <span className={styles.a}>
+                <FontAwesomeIcon
+                  icon={faMagnifyingGlass}
+                  style={{ fontSize: 40, color: "white" }}
+                />
+              </span>
             </div>
             <div className={styles.cont}>
               <div className={styles.icons_img}></div>

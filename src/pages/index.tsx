@@ -61,7 +61,7 @@ const Home = ({ properties}: InferGetServerSidePropsType<typeof getServerSidePro
             <input
               type="text"
               id="search"
-              style={{ width: '500px', borderRadius: '10px', padding: '20px 10px 20px 35px' }}
+              style={{ width: '500px', borderRadius: '10px', padding: '20px 10px 20px 38px' }}
               value={query}
               onChange={handleSearch}
               placeholder="Search properties..."

@@ -17,6 +17,7 @@ export const UploadInput = ({ fileRef, name, uplander }: IUploadProps) => {
             <input
               name={name}
               type="file"
+              accept="image/*"
               onChange={(e) => uplander(e)}
               ref={fileRef}
             />
